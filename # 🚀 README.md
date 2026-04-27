@@ -1,10 +1,12 @@
-# 🚀 Services Website (Spring Boot + JavaScript)
+# 🚀 Sistema de Gestión Empresarial (Spring Boot + React)
 
-Aplicación web full-stack orientada a una web corporativa de servicios, desarrollada con Spring Boot (backend) y frontend en JavaScript.
+🌐 Demo: https://juanillo-dev.github.io/springboot-services-website/
 
-El sistema expone una API REST desde el backend que permite servir datos dinámicos (servicios, contenido, etc.), consumidos por el frontend.
+Aplicación web full-stack orientada a la gestión empresarial, desarrollada con Spring Boot (backend) y React (frontend).
 
-Incluye una versión estática del frontend para despliegue en GitHub Pages con fines de demostración.
+El sistema expone una API REST que permite gestionar entidades como clientes, productos y facturación, consumidas desde el frontend.
+
+Incluye una versión estática del frontend desplegada en GitHub Pages con fines de demostración.
 
 ---
 
@@ -18,9 +20,9 @@ Incluye una versión estática del frontend para despliegue en GitHub Pages con 
 - API REST
 
 ### Frontend
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- React
+- JavaScript (ES6+)
+- HTML5 / CSS3
 - Fetch API
 
 ---
@@ -28,12 +30,11 @@ Incluye una versión estática del frontend para despliegue en GitHub Pages con 
 ## ⚙️ Funcionalidades
 
 - API REST desarrollada con Spring Boot
+- Gestión de clientes, productos y facturación
 - Consumo de datos desde frontend
-- Listado dinámico de servicios (modo local)
-- Formulario de contacto conectado al backend (modo local)
+- Arquitectura en capas (controller, service, repository)
 - Separación frontend / backend
-- Versión demo estática
-- Arquitectura orientada a proyecto real
+- Versión demo estática desplegada en GitHub Pages
 
 ---
 
@@ -46,7 +47,7 @@ Incluye una versión estática del frontend para despliegue en GitHub Pages con 
 
 ### 🌍 Demo
 - Frontend estático (sin backend)
-- Solo visualización
+- Visualización de la interfaz
 
 ---
 
@@ -56,30 +57,3 @@ Incluye una versión estática del frontend para despliegue en GitHub Pages con 
 
 ```bash
 ./mvnw spring-boot:run
-```
-
-o en Windows:
-
-```bash
-mvnw.cmd spring-boot:run
-```
-
----
-
-## 📁 Estructura del proyecto
-
-backend/   → API REST (Spring Boot)  
-frontend/  → Cliente web  
-
----
-
-## 👤 Autor
-
-Juan Leiva  
-Desarrollador Backend / FullStack Junior
-
----
-
-## 🧠 Contexto
-
-Proyecto desarrollado como parte de mi portfolio para demostrar habilidades en Java (Spring Boot), desarrollo de APIs REST y consumo desde frontend.
