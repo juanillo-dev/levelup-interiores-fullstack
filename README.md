@@ -1,70 +1,50 @@
-# 🏠 LevelUp Interiores - FullStack Website
+🏠 LevelUp Interiores – Plataforma de Servicios (Full Stack)
 
-Este proyecto es una aplicación web fullstack que he desarrollado para un negocio real de reformas, con el objetivo de captar clientes y gestionar solicitudes de presupuesto.
+Aplicación web full stack desarrollada para un negocio real de reformas, orientada a la captación de clientes y gestión de solicitudes de presupuesto.
 
----
+El proyecto simula un entorno real de producción, incluyendo integración completa entre frontend y backend, así como despliegue público accesible.
 
-## 🚀 Tecnologías
+🚀 Demo en producción
 
-### Backend
+👉 https://levelup-interiores-fullstack.vercel.app
 
-* Java + Spring Boot
-* API REST
-* Arquitectura por capas (Controller, Service, Repository)
-* MySQL
-
-### Frontend
-
-* React + TypeScript
-* Axios
-* Componentes reutilizables
-
----
-
-## 💡 Qué hace la aplicación
-
-* Página web orientada a presentar servicios de reformas
-* Formulario donde los clientes pueden solicitar presupuesto
-* Envío de datos al backend mediante API REST
-* Base preparada para gestionar solicitudes y ampliarla en el futuro
-
----
-
-## 🎯 Enfoque del proyecto
-
-La idea de este proyecto no es solo técnica, sino resolver una necesidad real:
-centralizar solicitudes de clientes y facilitar la captación de nuevos proyectos.
-
----
-
-## ⚙️ Cómo ejecutarlo
-
-### Backend
-
-```bash id="2t2wzm"
+💻 Tecnologías
+Backend
+Java + Spring Boot
+API REST
+Arquitectura por capas (Controller, Service, Repository)
+MySQL
+Frontend
+React + TypeScript
+Axios
+Componentes reutilizables
+💡 Funcionalidades
+Página web orientada a presentación de servicios
+Formulario de contacto para solicitud de presupuestos
+Envío de datos al backend mediante API REST
+Comunicación completa frontend-backend
+Base preparada para ampliación de funcionalidades
+🧠 Qué demuestra este proyecto
+Desarrollo full stack completo
+Diseño de API REST funcional
+Integración entre cliente y servidor
+Resolución de problemas reales de despliegue (build, rutas, configuración)
+Publicación de aplicación en entorno de producción
+⚙️ Ejecución en local
+Backend
 cd backend
 ./mvnw spring-boot:run
-```
-
-### Frontend
-
-```bash id="57m17j"
+Frontend
 cd frontend
 npm install
 npm run dev
-```
+📌 Estado del proyecto
 
----
+Aplicación funcional desplegada en producción, con posibilidad de mejora en validaciones, seguridad y ampliación de funcionalidades.
 
-## 📌 Estado actual
-
-Proyecto funcional, con margen de mejora en diseño, validaciones y despliegue.
-
----
-
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 Juan Leiva
 
-* LinkedIn: https://linkedin.com/in/juanleiva010
-* GitHub: https://github.com/juanillo-dev
+LinkedIn: https://linkedin.com/in/juanleiva010
+GitHub: https://github.com/juanillo-dev
