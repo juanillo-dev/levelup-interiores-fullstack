@@ -7,7 +7,7 @@ interface ProductoFormProps {
   onSuccess: () => void;        // Callback después de crear/editar
 }
 
-const API_URL = "http://localhost:8080/productos";
+const API_URL = "";
 
 export const ProductoForm = ({ producto, onSuccess }: ProductoFormProps) => {
   const [nombre, setNombre] = useState(producto?.nombre || "");
@@ -15,24 +15,29 @@ export const ProductoForm = ({ producto, onSuccess }: ProductoFormProps) => {
   const [precio, setPrecio] = useState(producto?.precio || 0);
   const [empresaId, setEmpresaId] = useState(producto?.empresaId || 1);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+ const handleSubmit = async (e: React.FormEvent) => {
+   e.preventDefault();
 
-    const payload = { nombre, descripcion, precio, empresaId };
+   const payload = { nombre, descripcion, precio, empresaId };
 
-    try {
-      if (producto) {
-        // Editar
-        await axios.put(`${API_URL}/${producto.id}`, payload);
-      } else {
-        // Crear
-        await axios.post(API_URL, payload);
-      }
-      onSuccess();
-    } catch (error) {
-      console.error("Error guardando producto:", error);
-    }
-  };
+   // 🚫 EVITAR LLAMADAS EN PRODUCCIÓN
+   if (!API_URL) {
+     console.log("Modo demo - sin backend");
+     onSuccess();
+     return;
+   }
+
+   try {
+     if (producto) {
+       await axios.put(`${API_URL}/${producto.id}`, payload);
+     } else {
+       await axios.post(API_URL, payload);
+     }
+     onSuccess();
+   } catch (error) {
+     console.error("Error guardando producto:", error);
+   }
+ };
 
   return (
     <form onSubmit={handleSubmit}>
