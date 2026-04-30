@@ -1,6 +1,3 @@
-# levelup-interiores-fullstack
-Aplicación web fullstack para un negocio real (React + Spring Boot) enfocada a la captación de clientes
-
 # 🏠 LevelUp Interiores - FullStack Website
 
 Este proyecto es una aplicación web fullstack que he desarrollado para un negocio real de reformas, con el objetivo de captar clientes y gestionar solicitudes de presupuesto.
