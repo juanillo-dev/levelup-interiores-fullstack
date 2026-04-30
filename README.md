@@ -18,18 +18,21 @@ Frontend
 React + TypeScript
 Axios
 Componentes reutilizables
+
 💡 Funcionalidades
 Página web orientada a presentación de servicios
 Formulario de contacto para solicitud de presupuestos
 Envío de datos al backend mediante API REST
 Comunicación completa frontend-backend
 Base preparada para ampliación de funcionalidades
+
 🧠 Qué demuestra este proyecto
 Desarrollo full stack completo
 Diseño de API REST funcional
 Integración entre cliente y servidor
 Resolución de problemas reales de despliegue (build, rutas, configuración)
 Publicación de aplicación en entorno de producción
+
 ⚙️ Ejecución en local
 Backend
 cd backend
@@ -38,6 +41,7 @@ Frontend
 cd frontend
 npm install
 npm run dev
+
 📌 Estado del proyecto
 
 Aplicación funcional desplegada en producción, con posibilidad de mejora en validaciones, seguridad y ampliación de funcionalidades.
