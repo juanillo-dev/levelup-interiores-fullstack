@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Producto } from "../interfaces/Producto";
 import { getProductos, deleteProducto } from "../services/api";
-import { ProductoForm } from "../components/ProductoForm";
+import { ProductoForm }  from "../components/forms/ProductoForm";
 
 export const ProductosPage = () => {
   const [productos, setProductos] = useState<Producto[]>([]);

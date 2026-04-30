@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Factura } from "../interfaces/Factura";
 import { getFacturas, deleteFactura } from "../services/api";
-import { FacturaForm } from "../components/FacturaForm";
+import { FacturaForm }  from "../components/forms/FacturaForm";
 
 export const FacturasPage = () => {
   const [facturas, setFacturas] = useState<Factura[]>([]);

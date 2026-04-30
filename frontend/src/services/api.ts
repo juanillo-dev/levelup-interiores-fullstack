@@ -5,7 +5,7 @@ import { Factura } from "../interfaces/Factura";
 import { Empresa } from "../interfaces/Empresa";
 import { SolicitudPresupuesto } from "../interfaces/SolicitudPresupuesto";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "http://localhost:8080/api";
 
 // ---------- PRODUCTOS ----------
 export const getProductos = async (): Promise<Producto[]> => {

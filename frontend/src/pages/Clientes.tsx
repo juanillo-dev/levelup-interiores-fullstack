@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Cliente } from "../interfaces/Cliente";
 import { getClientes, deleteCliente } from "../services/api";
-import { ClienteForm } from "../components/ClienteForm";
+import  { ClienteForm }  from "../components/forms/ClienteForm";
 
 export const ClientesPage = () => {
   const [clientes, setClientes] = useState<Cliente[]>([]);

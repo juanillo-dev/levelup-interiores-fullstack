@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Empresa } from "../interfaces/Empresa";
 import { getEmpresas, deleteEmpresa } from "../services/api";
-import { EmpresaForm } from "../components/EmpresaForm";
+import { EmpresaForm }  from "../components/forms/EmpresaForm";
 
 export const EmpresasPage = () => {
   const [empresas, setEmpresas] = useState<Empresa[]>([]);

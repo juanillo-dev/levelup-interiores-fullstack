@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "levelup-interiores-website",
   "version": "0.1.0",
   "homepage": "https://juanillo-dev.github.io/springboot-services-website",
   "private": true,
@@ -17,6 +17,7 @@
     "axios": "^1.13.5",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

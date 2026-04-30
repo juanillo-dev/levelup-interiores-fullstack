@@ -1,0 +1,111 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f5f1e8;
+  color: #3e3229;
+}
+
+/* ===== VARIABLES ===== */
+:root {
+  --beige-main: #f5f1e8;
+  --beige-dark: #e6dccb;
+  --brown: #5c4a3d;
+  --brown-dark: #3e3229;
+  --accent: #c8a97e;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: var(--beige-dark);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar img {
+  height: 45px;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--brown-dark);
+  font-weight: 500;
+}
+
+/* ===== BOTONES ===== */
+.btn-dark {
+  background: var(--brown-dark);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-light {
+  background-color: var(--accent);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-light:hover {
+  background-color: var(--brown);
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* ===== SERVICIOS ===== */
+.servicios {
+  padding: 60px 40px;
+}
+
+.servicios-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* ===== TRABAJO ===== */
+.trabajo {
+  background: var(--beige-dark);
+  padding: 60px 40px;
+}
+
+.trabajo-grid {
+  display: flex;
+  gap: 50px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: var(--brown-dark);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
